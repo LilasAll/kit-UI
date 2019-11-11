@@ -1,0 +1,258 @@
+/***********************************/
+/*          COULEURS               */
+/***********************************/
+
+.bloc-color {
+ 	padding: 10px 24px;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  align-content: space-between
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.primary {
+	background-color: #2C8484;
+}
+
+.text-primary {
+	color: rgb(44,132,132);
+	font-family: 'Playfair Display', serif;
+}
+
+.secondary {
+	background-color: #CC2344;
+}
+
+.text-secondary {
+	color: rgba(56, 58, 61, 1);
+	font-family: 'Playfair Display', serif;
+}
+
+.dark {
+	background-color: rgba(56, 58, 61, 1);
+}
+
+.text-dark {
+	color: rgba(56, 58, 61, 1);
+	font-family: 'Playfair Display', serif;
+}
+
+.medium {
+	background-color: rgba(175, 191, 191, 1);
+}
+
+.text-medium {
+	color: rgba(175, 191, 191, 1);
+	font-family: 'Playfair Display', serif;
+}
+
+.light {
+	background-color: rgba(230, 242, 242, 1);
+}
+
+.text-light {
+	color: rgba(230, 242, 242, 1);
+	font-family: 'Playfair Display', serif;
+}
+
+/***********************************/
+/*         TYPOGRAPHIE             */
+/***********************************/
+
+.header-h1 {
+	color: #2C8484;
+	font-family: 'Playfair Display', serif;
+}
+
+.header-h2 {
+	color: #CC2344;
+	font-family: 'Playfair Display', serif;
+}
+
+.header {
+	font-family: 'Playfair Display', serif;
+}
+
+.text {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.blockquote {
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+.ul {
+
+}
+
+.ol {
+
+}
+
+.li {
+
+}
+
+/***********************************/
+/*           BUTTONS               */
+/***********************************/
+
+.warning-btn {
+	background-color: #FC8C06; /* Orange */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.warning-btn-sm {
+	background-color: #FC8C06; /* Orange */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.warning-btn-lg {
+	background-color: #FC8C06; /* Orange */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.danger-btn {
+	background-color: #9C0404; /* Red*/
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.danger-btn-sm {
+	background-color: #9C0404; /* Red*/
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.danger-btn-lg {
+	background-color: #9C0404; /* Red*/
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.success-btn {
+	background-color: #05C34C; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.success-btn-sm {
+	background-color: #05C34C; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.sucess-btn-lg {
+	background-color: #05C34C; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.info-btn {
+	background-color: #2C8484; /* Blue */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.info-btn-sm {
+	background-color: #2C8484; /* Blue */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.info-btn-lg {
+	background-color: #2C8484; /* Blue */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+/***********************************/
+/*           OTHERS                */
+/***********************************/
+
+.card {
+	text-align: center;
+	font-weight: bold;
+}
